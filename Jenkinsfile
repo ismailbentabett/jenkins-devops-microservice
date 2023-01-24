@@ -22,16 +22,6 @@ pipeline {
 				echo "Deploy"
 			}
 		}
-	} 	post {
-		alwas {
-			echo "Always"
-		}
-		success {
-			echo "Success"
-		}
-		failure {
-			echo "Failure"
-		}
 	}
 
 
